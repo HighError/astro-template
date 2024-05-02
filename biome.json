@@ -10,9 +10,6 @@
       "complexity": {
         "useSimplifiedLogicExpression": "warn"
       },
-      "style": {
-        "noImplicitBoolean": "error"
-      },
       "suspicious": {
         "noConsoleLog": "warn"
       }
