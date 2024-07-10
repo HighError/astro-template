@@ -6,12 +6,15 @@ import icon from "astro-icon";
 import { defineConfig } from "astro/config";
 import { z } from "astro/zod";
 
-import env from "astro-env";
-
 const schema = z.object({});
 
 // https://astro.build/config
 export default defineConfig({
   site: "http://localhost:4321",
-  integrations: [tailwind(), playformCompress(), icon(), sitemap(), react(), env({ schema })],
+  integrations: [tailwind(), playformCompress(), icon(), sitemap(), react()],
+  experimental: {
+    env: {
+      schema: {},
+    },
+  },
 });
