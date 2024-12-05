@@ -1,1 +1,1 @@
-Moved to https://github.com/Eviloma/astro-template
+# Moved to https://github.com/Eviloma/astro-template
